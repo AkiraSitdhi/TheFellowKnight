@@ -6,6 +6,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="res"/>
+	<classpathentry excluding="allies/|sfx/|gui/|gameobject/|enemy/" kind="src" path="res"/>
+	<classpathentry kind="src" path="res/allies"/>
+	<classpathentry kind="src" path="res/sfx"/>
+	<classpathentry kind="src" path="res/gui"/>
+	<classpathentry kind="src" path="res/gameobject"/>
+	<classpathentry kind="src" path="res/enemy"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
